@@ -33,15 +33,17 @@ Table of Contents
 
 **6. Hit "Next" in the upper right corner** The image will be processed to detect test tube wells. If not all of the filled test tubes have been detected, tap on that it to circle it. If there are extra circles (empty test tubes, random junk) detected, tap "Delete Circle" and tap on the extra circles to remove them.
 
-      - **Note:** For extra precision, zoom into the image by pinching and tap the center of test tube
+      - Note: For extra precision, zoom into the image by pinching and tap the center of test tube
 
 **7. Tap "Analyze" when the image is ready to be processed.** The relative concentrations of the test tubes will be overlain over the test tubes. Zoom in to view them if the text is too small.
 
 **8. If you are satisfied, hit "Export" to save the analysis to the launch page**
+
       - Tap “Mail” to email the results as a .csv file
       - Tap “Dropbox” to upload the results to dropbox as a .csv
 
 **9. Then, hit "Done" to return to the Launch Page**
+
       - To view past results, tap on the thumbnail of the result you wish to view.
       - To delete any past result, swipe right on the thumbnail and tap "Delete".
       - To perform another analysis, repeat start from the beginning of this list.
