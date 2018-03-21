@@ -22,7 +22,7 @@ Table of Contents
 
 **4. Tap the "Choose Image" icon.** To capture a new image to analyze, tap "Camera". The screen should show what the camera sees, with a rectangular frame overlaid on the view.
 
-         Here are some tips to take a good shot for the analysis:
+         Tips to take a good shot for the analysis:
          - Center the plate inside of the rectangular frame.
          - Align the sides of the rectangle with the plate.
          - Keep the phone as level as possible.
@@ -68,3 +68,5 @@ To improve the accuracy of the analysis, make sure to follow these steps:
       The application is expected to be used in an indoor scenario where the room is evenly lit.
       The application have been tested with blue food coloring dye only.
 
+## Disclaimer
+The information provided by this app is not intended or implied to be a substitute for professional medical advice, diagnosis or treatment. This app is not intended or implied to to be a replacement for a proper microplate reader, and is only to be used for estimating concentrations of assays. The makers of this app, the Cal Poly Optical Assay Capstone Group and the California Polytechnic State University will not be held liable for any damages caused by this app.
