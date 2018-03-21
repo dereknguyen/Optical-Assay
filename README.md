@@ -7,11 +7,28 @@
 This will go over proper usage of the app, and tips for troubleshooting the app, the capabilities of the app, disclaimers, and license agreements for using this app.
 
 Table of Contents
+1. [Installation](#install)
 1. [Usage](#usage)
 2. [Troubleshooting](#troubleshooting)
 3. [Capabilities](#capabilities)
 4. [Disclaimer](#Disclaimer)
 5. [Open Source Attributions](#attributions)
+
+## Installation
+After download the project, please open the **Podfile** and uncomment the following pods:
+
+```
+- 'JGProgressHUD'
+- 'Alamofire', '~> 4.0'
+- 'SwiftyDropbox', '~> 4.2'
+- 'OpenCV2'
+- 'TextFieldEffects'
+```
+
+Then, install the pods via CocoaPods:
+```
+pod install
+```
 
 ## Usage
 
