@@ -51,8 +51,8 @@ Table of Contents
 ## Troubleshooting
 To improve the accuracy of the analysis, make sure to follow these steps:
 
-•  Center the plate inside of the rectangular frame.
-•  Align the sides of the rectangle with the plate.
-•  Keep the phone as level as possible.
-•  Avoid direct light and glare.
-•  Use an even consistent background for the image, even outside of the rectangular frame.
+-  Center the plate inside of the rectangular frame.
+-  Align the sides of the rectangle with the plate.
+-  Keep the phone as level as possible.
+-  Avoid direct light and glare.
+-  Use an even consistent background for the image, even outside of the rectangular frame.
