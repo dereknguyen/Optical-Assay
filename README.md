@@ -6,11 +6,11 @@
 
 This will go over proper usage of the app, and tips for troubleshooting the app, the capabilities of the app, disclaimers, and license agreements for using this app.
 
-** Author: **
+**Author:**
 - Current CPE Capstone Team 2017: Derek Nguyen, Michael Murdock
 - Previous CPE Capstone Team 2016: Anthony Annuzzi, Justin Zaman, David Zhuo
 
-** Build Target: iOS 11 **
+**Build Target: iOS 11**
 
 Table of Contents
 1. [Installation](#install)
