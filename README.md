@@ -58,6 +58,12 @@ To improve the accuracy of the analysis, make sure to follow these steps:
 -  Use an even consistent background for the image, even outside of the rectangular frame.
 
 ## Capabilities
--  Hue Range: 180-230
--  Max Error Rate: 35%
+-  Well Detection Rate: 98%
+-  Minimum hue value: 188 degree at 34% Saturation and 65% Brightness (HSB)
+-  Max Error Rate: 44%
 -  Average Error Rate: 12%
+
+Error rate is defined as the percent difference between the sample and the actual value.
+The application is expected to be used in an indoor scenario where the room is evenly lit.
+The application have been tested with blue food coloring dye only.
+
