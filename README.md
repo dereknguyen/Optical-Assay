@@ -8,14 +8,20 @@ This will go over proper usage of the app, and tips for troubleshooting the app,
 
 Table of Contents
 1. [Installation](#install)
-1. [Usage](#usage)
-2. [Troubleshooting](#troubleshooting)
-3. [Capabilities](#capabilities)
-4. [Disclaimer](#Disclaimer)
-5. [Open Source Attributions](#attributions)
+2. [Usage](#usage)
+3. [Troubleshooting](#troubleshooting)
+4. [Capabilities](#capabilities)
+5. [Disclaimer](#Disclaimer)
+6. [Open Source Attributions](#attributions)
 
 ## Installation
-After download the project, please open the **Podfile** and uncomment the following pods:
+For storage and uploading reason, we did not install the necessary pods for the project.
+
+If you do not have CocoaPods install, please follow the following guide from CocoaPods:
+```
+[CocoaPods: Getting Started](https://guides.cocoapods.org/using/getting-started.html)
+```
+After download the project, please open the **Podfile** with any text editor and uncomment the following pods:
 
 ```
 - 'JGProgressHUD'
