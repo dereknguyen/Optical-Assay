@@ -31,7 +31,7 @@ After download the project, please open the **Podfile** with any text editor and
 - 'TextFieldEffects'
 ```
 
-Then, install the pods via CocoaPods:
+Then, install the pods via CocoaPods. Type in the following command in Terminal:
 ```
 pod install
 ```
