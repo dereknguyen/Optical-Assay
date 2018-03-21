@@ -48,3 +48,11 @@ Table of Contents
       - To delete any past result, swipe right on the thumbnail and tap "Delete".
       - To perform another analysis, repeat start from the beginning of this list.
 
+## Troubleshooting
+To improve the accuracy of the analysis, make sure to follow these steps:
+
+•  Center the plate inside of the rectangular frame.
+•  Align the sides of the rectangle with the plate.
+•  Keep the phone as level as possible.
+•  Avoid direct light and glare.
+•  Use an even consistent background for the image, even outside of the rectangular frame.
