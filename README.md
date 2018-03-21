@@ -15,9 +15,7 @@ Table of Contents
 6. [Open Source Attributions](#attributions)
 
 ## Installation
-For storage and uploading reason, we did not install the necessary pods for the project.
-
-If you do not have CocoaPods install, please follow the following guide from CocoaPods:
+For storage and uploading reason, we did not install the necessary pods for the project. If you do not have CocoaPods install, please follow the following guide from CocoaPods:
 
 - [CocoaPods: Getting Started](https://guides.cocoapods.org/using/getting-started.html)
 
