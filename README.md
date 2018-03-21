@@ -4,7 +4,7 @@
 
 **Welcome to Optical Assay application!**
 
-This will go over proper usage of the app, and tips for troubleshooting the app, the capabilities of the app, disclaimers, and license agreements for using this app.
+This will go over proper installation, usage of the app, and tips for troubleshooting the app, the capabilities of the app, disclaimers, and license agreements for using this app.
 
 **Author:**
 - Current CPE Capstone Team 2017: Derek Nguyen, Michael Murdock
