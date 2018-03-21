@@ -18,12 +18,12 @@ Table of Contents
    - **2. Tap the “+” icon in the upper right corner.** This launches the "New Analysis" page
    - **3. Fill out the relevant information.** Analysis Name (Required): The name of the analysis. This will be the name shown on the Results Page Description (Not required): A short description that describes the analysis
    - **4. Tap the "Choose Image" icon.** To capture a new image to analyze, tap "Camera". The screen should show what the camera sees, with a rectangular frame overlaid on the view.
-      - Here are some tips to take a good shot for the analysis:
-      - Center the plate inside of the rectangular frame.
-      - Align the sides of the rectangle with the plate.
-      - Keep the phone as level as possible.
-      - Avoid direct light and glare.
-      - Use an even consistent background for the image, even outside of the rectangular frame.
+         - Here are some tips to take a good shot for the analysis:
+         - Center the plate inside of the rectangular frame.
+         - Align the sides of the rectangle with the plate.
+         - Keep the phone as level as possible.
+         - Avoid direct light and glare.
+         - Use an even consistent background for the image, even outside of the rectangular frame.
 
 Tap the circular icon on the screen to capture the image when it is ready.
 To analyze an image that was previously captured, tap "Photo Library". The screen that appears will show your photo library. Find an appropriate assay image, keeping the guidelines above in mind.
