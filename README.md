@@ -18,10 +18,9 @@ Table of Contents
 For storage and uploading reason, we did not install the necessary pods for the project.
 
 If you do not have CocoaPods install, please follow the following guide from CocoaPods:
-```
-[CocoaPods: Getting Started]
-(https://guides.cocoapods.org/using/getting-started.html)
-```
+
+[CocoaPods: Getting Started](https://guides.cocoapods.org/using/getting-started.html)
+
 After download the project, please open the **Podfile** with any text editor and uncomment the following pods:
 
 ```
