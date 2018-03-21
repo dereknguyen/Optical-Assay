@@ -64,7 +64,7 @@ To improve the accuracy of the analysis, make sure to follow these steps:
 -  Average Error Rate: 12%
 
       ***Note:***
-      - Error rate is defined as the percent difference between the sample and the actual value.
-      - The application is expected to be used in an indoor scenario where the room is evenly lit.
-      - The application have been tested with blue food coloring dye only.
+      . Error rate is defined as the percent difference between the sample and the actual value.
+      . The application is expected to be used in an indoor scenario where the room is evenly lit.
+      . The application have been tested with blue food coloring dye only.
 
