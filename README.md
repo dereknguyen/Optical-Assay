@@ -15,7 +15,7 @@ Table of Contents
 
 ## Usage
 
-![Alt text](flow.png "flow")
+![](flow.png "flow")
 
 **1. Launch the app.** The first page shown is the "Recent Page". This will show past analysis results with their name, thumbnail, and timestamp.
 
