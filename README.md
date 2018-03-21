@@ -12,3 +12,47 @@ Table of Contents
 3. [Capabilities](#capabilities)
 4. [Disclaimer](#Disclaimer)
 5. [Open Source Attributions](#attributions)
+
+Usage
+1. Launch the app
+
+The first page shown is the "Recent Page". This will show past analysis results with their name, thumbnail, and timestamp.
+
+2. Tap the “+” icon in the upper right corner
+
+This launches the "New Analysis" page
+
+3. Fill out the relevant information
+
+Analysis Name (Required): The name of the analysis. This will be the name shown on the Results Page Description (Not required): A short description that describes the analysis
+
+4. Tap the "Choose Image" icon
+
+To capture a new image to analyze, tap "Camera". The screen should show what the camera sees, with a rectangular frame overlaid on the view.
+Here are some tips to take a good shot for the analysis:
+•  Center the plate inside of the rectangular frame.
+•  Align the sides of the rectangle with the plate.
+•  Keep the phone as level as possible.
+•  Avoid direct light and glare.
+•  Use an even consistent background for the image, even outside of the rectangular frame.
+
+Tap the circular icon on the screen to capture the image when it is ready.
+To analyze an image that was previously captured, tap "Photo Library". The screen that appears will show your photo library. Find an appropriate assay image, keeping the guidelines above in mind.
+
+5. Hit "Next" in the upper right corner
+The image will be processed to detect test tube wells. If not all of the filled test tubes have been detected, tap on that it to circle it. If there are extra circles (empty test tubes, random junk) detected, tap "Delete Circle" and tap on the extra circles to remove them.
+
+Note: For extra precision, zoom into the image by pinching and tap the center of test tube
+
+6. Tap "Analyze" when the image is ready to be processed
+The relative concentrations of the test tubes will be overlain over the test tubes. Zoom in to view them if the text is too small.
+
+7. If you are satisfied, hit "Export" to save the analysis to the launch page
+•  Tap “Mail” to email the results as a .csv file
+•  Tap “Dropbox” to upload the results to dropbox as a .csv
+
+8. Then, hit "Done" to return to the Launch Page
+To view past results, tap on the thumbnail of the result you wish to view.
+To delete any past result, swipe right on the thumbnail and tap "Delete".
+To perform another analysis, repeat start from the beginning of this list.
+
