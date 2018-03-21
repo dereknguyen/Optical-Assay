@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39F71C559BF323DF93E76EB2 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A232C5783B8BB99616AA695B /* Pods.framework */; };
+		6351530B6C3F8569ED777E23 /* Pods_Assay_Analysis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04348508008DF0ADC97C0EB /* Pods_Assay_Analysis.framework */; };
+		9215C27F1BFDD713000CEC93 /* onbench_6in.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 9215C27E1BFDD713000CEC93 /* onbench_6in.JPG */; };
+		9215C2831C0E0507000CEC93 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9215C2821C0E0507000CEC93 /* CameraViewController.swift */; };
+		92296EA61C10BE72002804A3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92296EA51C10BE72002804A3 /* CoreMotion.framework */; };
+		923B1D521C4075A100793840 /* CameraOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B1D501C4075A100793840 /* CameraOverlayViewController.swift */; };
+		923B1D531C4075A100793840 /* CameraOverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923B1D511C4075A100793840 /* CameraOverlayViewController.xib */; };
+		923B1D551C4077EF00793840 /* CameraOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B1D541C4077EF00793840 /* CameraOverlayView.swift */; };
+		923B1D571C48B55300793840 /* NewAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B1D561C48B55300793840 /* NewAnalysisViewController.swift */; };
+		923B1D591C4F59D600793840 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B1D581C4F59D600793840 /* MainViewController.swift */; };
+		923B1D5F1C4F710700793840 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B1D5D1C4F710700793840 /* FloatLabelTextField.swift */; };
+		923B1D601C4F710700793840 /* FloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B1D5E1C4F710700793840 /* FloatLabelTextView.swift */; };
+		923B1D651C50877200793840 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = 923B1D641C50877200793840 /* help.html */; };
+		923B1D671C5087F600793840 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B1D661C5087F500793840 /* HelpViewController.swift */; };
+		923B1D6A1C50A32200793840 /* choose_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 923B1D691C50A32200793840 /* choose_image.png */; };
+		923B1D6C1C52F0F400793840 /* SavedAnalysisTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B1D6B1C52F0F400793840 /* SavedAnalysisTableViewCell.swift */; };
+		923B1D6E1C53016B00793840 /* SavedAnalysisTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B1D6D1C53016B00793840 /* SavedAnalysisTableViewController.swift */; };
+		923B1D731C55E14500793840 /* AssayAnalysis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 923B1D711C55E14500793840 /* AssayAnalysis.xcdatamodeld */; };
+		923B1D751C55F0D900793840 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B1D741C55F0D900793840 /* ResultsViewController.swift */; };
+		923B1DBA1C56E06C00793840 /* AnalysisData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B1DB91C56E06C00793840 /* AnalysisData.swift */; };
+		923B1DBC1C57013A00793840 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B1DBB1C57013900793840 /* Utils.swift */; };
+		924A521F1C77EA15004B1B53 /* dropbox_glyph_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 924A521E1C77EA15004B1B53 /* dropbox_glyph_blue.png */; };
+		924A52211C77EAC7004B1B53 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 924A52201C77EAC7004B1B53 /* mail.png */; };
+		924A52231C793FD2004B1B53 /* ExportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A52221C793FD2004B1B53 /* ExportViewController.swift */; };
+		924A52251C79500C004B1B53 /* AssayAnalysisPhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A52241C79500C004B1B53 /* AssayAnalysisPhotoAlbum.swift */; };
+		926649701BC3A63B00A2610D /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9266496E1BC3A63B00A2610D /* OpenCVWrapper.mm */; };
+		926649741BC3A80A00A2610D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926649731BC3A80A00A2610D /* Foundation.framework */; };
+		926649771BC3A89600A2610D /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 926649761BC3A89600A2610D /* UIImage+OpenCV.mm */; };
+		926649801BC426A400A2610D /* image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9266497F1BC426A400A2610D /* image.jpeg */; };
+		926649811BC427E500A2610D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926649711BC3A80200A2610D /* UIKit.framework */; };
+		926649831BC427FC00A2610D /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926649821BC427FC00A2610D /* opencv2.framework */; };
+		926C25CD1C8119F800052D5D /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 926C25CC1C8119F800052D5D /* overlay.png */; };
+		926C25D51C811E2F00052D5D /* shutter.png in Resources */ = {isa = PBXBuildFile; fileRef = 926C25D41C811E2F00052D5D /* shutter.png */; };
+		926C25D91C8121E200052D5D /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 926C25D81C8121E200052D5D /* cancel.png */; };
+		92798BFE1C65737400758791 /* AnalysisResult.h in Resources */ = {isa = PBXBuildFile; fileRef = 92798BFD1C65737400758791 /* AnalysisResult.h */; };
+		92798C001C65739600758791 /* AnalysisResult.mm in Sources */ = {isa = PBXBuildFile; fileRef = 92798BFF1C65739600758791 /* AnalysisResult.mm */; };
+		927A8CE81C60497F001F758D /* Circle.mm in Sources */ = {isa = PBXBuildFile; fileRef = 927A8CE71C60497F001F758D /* Circle.mm */; };
+		927A8CEB1C615C98001F758D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927A8CEA1C615C98001F758D /* CoreData.framework */; };
+		927A8CEE1C615E2E001F758D /* CirclePosition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 927A8CED1C615E2E001F758D /* CirclePosition.mm */; };
+		92C1FEF41C3DEDC600BABB2F /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 92C1FEF31C3DEDC600BABB2F /* box.png */; };
+		92E61FE31BC42E4F004E0A4C /* CVCircles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E61FE11BC42E4F004E0A4C /* CVCircles.cpp */; };
+		92E61FE51BC44105004E0A4C /* assay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92E61FE41BC44105004E0A4C /* assay.jpg */; };
+		92FE2DC31BBD9BC2009A4B9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FE2DC21BBD9BC2009A4B9C /* AppDelegate.swift */; };
+		92FE2DC51BBD9BC2009A4B9C /* DetectedCirclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FE2DC41BBD9BC2009A4B9C /* DetectedCirclesViewController.swift */; };
+		92FE2DC81BBD9BC2009A4B9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FE2DC61BBD9BC2009A4B9C /* Main.storyboard */; };
+		92FE2DCA1BBD9BC2009A4B9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FE2DC91BBD9BC2009A4B9C /* Images.xcassets */; };
+		92FE2DCD1BBD9BC2009A4B9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92FE2DCB1BBD9BC2009A4B9C /* LaunchScreen.xib */; };
+		92FE2DD91BBD9BC2009A4B9C /* Assay_AnalysisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FE2DD81BBD9BC2009A4B9C /* Assay_AnalysisTests.swift */; };
+		D6952AF41C59804200A7FF22 /* circleSegment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6952AF31C59804200A7FF22 /* circleSegment.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92FE2DD31BBD9BC2009A4B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FE2DB51BBD9BC2009A4B9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FE2DBC1BBD9BC2009A4B9C;
+			remoteInfo = "Assay Analysis";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012E69953BE63530F93FAEFE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		15226C77C7C3B359603FBB05 /* Pods-Assay Analysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assay Analysis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Assay Analysis/Pods-Assay Analysis.debug.xcconfig"; sourceTree = "<group>"; };
+		76BDD87FE1056267AFF66E6B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9215C27E1BFDD713000CEC93 /* onbench_6in.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onbench_6in.JPG; sourceTree = "<group>"; };
+		9215C2821C0E0507000CEC93 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		92296EA51C10BE72002804A3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		923B1D501C4075A100793840 /* CameraOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOverlayViewController.swift; sourceTree = "<group>"; };
+		923B1D511C4075A100793840 /* CameraOverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraOverlayViewController.xib; sourceTree = "<group>"; };
+		923B1D541C4077EF00793840 /* CameraOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOverlayView.swift; sourceTree = "<group>"; };
+		923B1D561C48B55300793840 /* NewAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAnalysisViewController.swift; sourceTree = "<group>"; };
+		923B1D581C4F59D600793840 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		923B1D5D1C4F710700793840 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		923B1D5E1C4F710700793840 /* FloatLabelTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextView.swift; sourceTree = "<group>"; };
+		923B1D641C50877200793840 /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
+		923B1D661C5087F500793840 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		923B1D691C50A32200793840 /* choose_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = choose_image.png; sourceTree = "<group>"; };
+		923B1D6B1C52F0F400793840 /* SavedAnalysisTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedAnalysisTableViewCell.swift; sourceTree = "<group>"; };
+		923B1D6D1C53016B00793840 /* SavedAnalysisTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedAnalysisTableViewController.swift; sourceTree = "<group>"; };
+		923B1D721C55E14500793840 /* AssayAnalysis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AssayAnalysis.xcdatamodel; sourceTree = "<group>"; };
+		923B1D741C55F0D900793840 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		923B1DB91C56E06C00793840 /* AnalysisData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisData.swift; sourceTree = "<group>"; };
+		923B1DBB1C57013900793840 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		924A521E1C77EA15004B1B53 /* dropbox_glyph_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropbox_glyph_blue.png; sourceTree = "<group>"; };
+		924A52201C77EAC7004B1B53 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		924A52221C793FD2004B1B53 /* ExportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExportViewController.swift; sourceTree = "<group>"; };
+		924A52241C79500C004B1B53 /* AssayAnalysisPhotoAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssayAnalysisPhotoAlbum.swift; sourceTree = "<group>"; };
+		9266496E1BC3A63B00A2610D /* OpenCVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		9266496F1BC3A63B00A2610D /* OpenCVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		926649711BC3A80200A2610D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		926649731BC3A80A00A2610D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		926649751BC3A89600A2610D /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		926649761BC3A89600A2610D /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		926649781BC3A9F200A2610D /* AssayAnalysis-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssayAnalysis-Bridging-Header.h"; sourceTree = "<group>"; };
+		9266497F1BC426A400A2610D /* image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpeg; sourceTree = "<group>"; };
+		926649821BC427FC00A2610D /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = Frameworks/opencv2.framework; sourceTree = "<group>"; };
+		926C25CC1C8119F800052D5D /* overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay.png; sourceTree = "<group>"; };
+		926C25D41C811E2F00052D5D /* shutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shutter.png; sourceTree = "<group>"; };
+		926C25D81C8121E200052D5D /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		92798BFD1C65737400758791 /* AnalysisResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysisResult.h; sourceTree = "<group>"; };
+		92798BFF1C65739600758791 /* AnalysisResult.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AnalysisResult.mm; sourceTree = "<group>"; };
+		92798C011C6AD33200758791 /* JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		927A8CE71C60497F001F758D /* Circle.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Circle.mm; sourceTree = "<group>"; };
+		927A8CE91C6049A2001F758D /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		927A8CEA1C615C98001F758D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		927A8CED1C615E2E001F758D /* CirclePosition.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CirclePosition.mm; sourceTree = "<group>"; };
+		927A8CEF1C615E99001F758D /* CirclePosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirclePosition.h; sourceTree = "<group>"; };
+		92C1FEF31C3DEDC600BABB2F /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+		92E61FE11BC42E4F004E0A4C /* CVCircles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVCircles.cpp; sourceTree = "<group>"; };
+		92E61FE21BC42E4F004E0A4C /* CVCircles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVCircles.h; sourceTree = "<group>"; };
+		92E61FE41BC44105004E0A4C /* assay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = assay.jpg; sourceTree = "<group>"; };
+		92FE2DBD1BBD9BC2009A4B9C /* Assay Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assay Analysis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FE2DC11BBD9BC2009A4B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FE2DC21BBD9BC2009A4B9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92FE2DC41BBD9BC2009A4B9C /* DetectedCirclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedCirclesViewController.swift; sourceTree = "<group>"; };
+		92FE2DC71BBD9BC2009A4B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92FE2DC91BBD9BC2009A4B9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92FE2DCC1BBD9BC2009A4B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		92FE2DD21BBD9BC2009A4B9C /* Assay AnalysisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assay AnalysisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FE2DD71BBD9BC2009A4B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FE2DD81BBD9BC2009A4B9C /* Assay_AnalysisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assay_AnalysisTests.swift; sourceTree = "<group>"; };
+		A232C5783B8BB99616AA695B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6952AF31C59804200A7FF22 /* circleSegment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = circleSegment.cpp; sourceTree = "<group>"; };
+		D6952AF51C59806000A7FF22 /* circleSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circleSegment.h; sourceTree = "<group>"; };
+		DEACB982A1922370D2365351 /* Pods-Assay Analysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assay Analysis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Assay Analysis/Pods-Assay Analysis.release.xcconfig"; sourceTree = "<group>"; };
+		F04348508008DF0ADC97C0EB /* Pods_Assay_Analysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assay_Analysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92FE2DBA1BBD9BC2009A4B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927A8CEB1C615C98001F758D /* CoreData.framework in Frameworks */,
+				92296EA61C10BE72002804A3 /* CoreMotion.framework in Frameworks */,
+				926649831BC427FC00A2610D /* opencv2.framework in Frameworks */,
+				926649811BC427E500A2610D /* UIKit.framework in Frameworks */,
+				926649741BC3A80A00A2610D /* Foundation.framework in Frameworks */,
+				39F71C559BF323DF93E76EB2 /* Pods.framework in Frameworks */,
+				6351530B6C3F8569ED777E23 /* Pods_Assay_Analysis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FE2DCF1BBD9BC2009A4B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7C264046AB398E86DBECD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76BDD87FE1056267AFF66E6B /* Pods.debug.xcconfig */,
+				012E69953BE63530F93FAEFE /* Pods.release.xcconfig */,
+				15226C77C7C3B359603FBB05 /* Pods-Assay Analysis.debug.xcconfig */,
+				DEACB982A1922370D2365351 /* Pods-Assay Analysis.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		923B1D5C1C4F710700793840 /* FloatLabelFields */ = {
+			isa = PBXGroup;
+			children = (
+				923B1D5D1C4F710700793840 /* FloatLabelTextField.swift */,
+				923B1D5E1C4F710700793840 /* FloatLabelTextView.swift */,
+			);
+			path = FloatLabelFields;
+			sourceTree = "<group>";
+		};
+		923B1D681C50979300793840 /* CameraOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				923B1D541C4077EF00793840 /* CameraOverlayView.swift */,
+				923B1D501C4075A100793840 /* CameraOverlayViewController.swift */,
+				923B1D511C4075A100793840 /* CameraOverlayViewController.xib */,
+			);
+			name = CameraOverlay;
+			sourceTree = "<group>";
+		};
+		926649841BC42A8400A2610D /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				D6952AF51C59806000A7FF22 /* circleSegment.h */,
+				D6952AF31C59804200A7FF22 /* circleSegment.cpp */,
+				92E61FE11BC42E4F004E0A4C /* CVCircles.cpp */,
+				92E61FE21BC42E4F004E0A4C /* CVCircles.h */,
+				926649751BC3A89600A2610D /* UIImage+OpenCV.h */,
+				926649761BC3A89600A2610D /* UIImage+OpenCV.mm */,
+				9266496E1BC3A63B00A2610D /* OpenCVWrapper.mm */,
+				9266496F1BC3A63B00A2610D /* OpenCVWrapper.h */,
+				926649781BC3A9F200A2610D /* AssayAnalysis-Bridging-Header.h */,
+			);
+			name = OpenCV;
+			sourceTree = "<group>";
+		};
+		927A8CE11C604064001F758D /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				927A8CE71C60497F001F758D /* Circle.mm */,
+				927A8CE91C6049A2001F758D /* Circle.h */,
+				927A8CED1C615E2E001F758D /* CirclePosition.mm */,
+				927A8CEF1C615E99001F758D /* CirclePosition.h */,
+				92798BFD1C65737400758791 /* AnalysisResult.h */,
+				92798BFF1C65739600758791 /* AnalysisResult.mm */,
+				92798C011C6AD33200758791 /* JSON.h */,
+			);
+			name = DTO;
+			sourceTree = "<group>";
+		};
+		92FE2DB41BBD9BC2009A4B9C = {
+			isa = PBXGroup;
+			children = (
+				923B1DBB1C57013900793840 /* Utils.swift */,
+				923B1DB91C56E06C00793840 /* AnalysisData.swift */,
+				927A8CEA1C615C98001F758D /* CoreData.framework */,
+				92296EA51C10BE72002804A3 /* CoreMotion.framework */,
+				926649821BC427FC00A2610D /* opencv2.framework */,
+				926649731BC3A80A00A2610D /* Foundation.framework */,
+				926649711BC3A80200A2610D /* UIKit.framework */,
+				92FE2DBF1BBD9BC2009A4B9C /* Assay Analysis */,
+				92FE2DD51BBD9BC2009A4B9C /* Assay AnalysisTests */,
+				92FE2DBE1BBD9BC2009A4B9C /* Products */,
+				1F7C264046AB398E86DBECD2 /* Pods */,
+				E0AEBA3FD4BA140BA3FFD5D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92FE2DBE1BBD9BC2009A4B9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92FE2DBD1BBD9BC2009A4B9C /* Assay Analysis.app */,
+				92FE2DD21BBD9BC2009A4B9C /* Assay AnalysisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92FE2DBF1BBD9BC2009A4B9C /* Assay Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				927A8CE11C604064001F758D /* DTO */,
+				923B1D5C1C4F710700793840 /* FloatLabelFields */,
+				926649841BC42A8400A2610D /* OpenCV */,
+				923B1D681C50979300793840 /* CameraOverlay */,
+				923B1D581C4F59D600793840 /* MainViewController.swift */,
+				923B1D741C55F0D900793840 /* ResultsViewController.swift */,
+				9215C2821C0E0507000CEC93 /* CameraViewController.swift */,
+				92FE2DC41BBD9BC2009A4B9C /* DetectedCirclesViewController.swift */,
+				923B1D561C48B55300793840 /* NewAnalysisViewController.swift */,
+				92FE2DC61BBD9BC2009A4B9C /* Main.storyboard */,
+				923B1D661C5087F500793840 /* HelpViewController.swift */,
+				923B1D6B1C52F0F400793840 /* SavedAnalysisTableViewCell.swift */,
+				923B1D6D1C53016B00793840 /* SavedAnalysisTableViewController.swift */,
+				924A52221C793FD2004B1B53 /* ExportViewController.swift */,
+				924A52241C79500C004B1B53 /* AssayAnalysisPhotoAlbum.swift */,
+				923B1D711C55E14500793840 /* AssayAnalysis.xcdatamodeld */,
+				92FE2DC91BBD9BC2009A4B9C /* Images.xcassets */,
+				92FE2DC01BBD9BC2009A4B9C /* Supporting Files */,
+			);
+			path = "Assay Analysis";
+			sourceTree = "<group>";
+		};
+		92FE2DC01BBD9BC2009A4B9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92FE2DC21BBD9BC2009A4B9C /* AppDelegate.swift */,
+				92FE2DCB1BBD9BC2009A4B9C /* LaunchScreen.xib */,
+				923B1D641C50877200793840 /* help.html */,
+				926C25D41C811E2F00052D5D /* shutter.png */,
+				926C25D81C8121E200052D5D /* cancel.png */,
+				923B1D691C50A32200793840 /* choose_image.png */,
+				92C1FEF31C3DEDC600BABB2F /* box.png */,
+				926C25CC1C8119F800052D5D /* overlay.png */,
+				924A52201C77EAC7004B1B53 /* mail.png */,
+				924A521E1C77EA15004B1B53 /* dropbox_glyph_blue.png */,
+				92E61FE41BC44105004E0A4C /* assay.jpg */,
+				9266497F1BC426A400A2610D /* image.jpeg */,
+				9215C27E1BFDD713000CEC93 /* onbench_6in.JPG */,
+				92FE2DC11BBD9BC2009A4B9C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92FE2DD51BBD9BC2009A4B9C /* Assay AnalysisTests */ = {
+			isa = PBXGroup;
+			children = (
+				92FE2DD81BBD9BC2009A4B9C /* Assay_AnalysisTests.swift */,
+				92FE2DD61BBD9BC2009A4B9C /* Supporting Files */,
+			);
+			path = "Assay AnalysisTests";
+			sourceTree = "<group>";
+		};
+		92FE2DD61BBD9BC2009A4B9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92FE2DD71BBD9BC2009A4B9C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0AEBA3FD4BA140BA3FFD5D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A232C5783B8BB99616AA695B /* Pods.framework */,
+				F04348508008DF0ADC97C0EB /* Pods_Assay_Analysis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92FE2DBC1BBD9BC2009A4B9C /* Assay Analysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FE2DDC1BBD9BC2009A4B9C /* Build configuration list for PBXNativeTarget "Assay Analysis" */;
+			buildPhases = (
+				BB6D8DA847DFA50155664592 /* [CP] Check Pods Manifest.lock */,
+				92FE2DB91BBD9BC2009A4B9C /* Sources */,
+				92FE2DBA1BBD9BC2009A4B9C /* Frameworks */,
+				92FE2DBB1BBD9BC2009A4B9C /* Resources */,
+				7A500D684C7470BF93FA5159 /* [CP] Embed Pods Frameworks */,
+				E19105177979FA970800648C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assay Analysis";
+			productName = "Assay Analysis";
+			productReference = 92FE2DBD1BBD9BC2009A4B9C /* Assay Analysis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92FE2DD11BBD9BC2009A4B9C /* Assay AnalysisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FE2DDF1BBD9BC2009A4B9C /* Build configuration list for PBXNativeTarget "Assay AnalysisTests" */;
+			buildPhases = (
+				92FE2DCE1BBD9BC2009A4B9C /* Sources */,
+				92FE2DCF1BBD9BC2009A4B9C /* Frameworks */,
+				92FE2DD01BBD9BC2009A4B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92FE2DD41BBD9BC2009A4B9C /* PBXTargetDependency */,
+			);
+			name = "Assay AnalysisTests";
+			productName = "Assay AnalysisTests";
+			productReference = 92FE2DD21BBD9BC2009A4B9C /* Assay AnalysisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92FE2DB51BBD9BC2009A4B9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "CPE350 Capstone";
+				TargetAttributes = {
+					92FE2DBC1BBD9BC2009A4B9C = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = JHLD9G9DAX;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					92FE2DD11BBD9BC2009A4B9C = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = JHLD9G9DAX;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+						TestTargetID = 92FE2DBC1BBD9BC2009A4B9C;
+					};
+				};
+			};
+			buildConfigurationList = 92FE2DB81BBD9BC2009A4B9C /* Build configuration list for PBXProject "Assay Analysis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92FE2DB41BBD9BC2009A4B9C;
+			productRefGroup = 92FE2DBE1BBD9BC2009A4B9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92FE2DBC1BBD9BC2009A4B9C /* Assay Analysis */,
+				92FE2DD11BBD9BC2009A4B9C /* Assay AnalysisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92FE2DBB1BBD9BC2009A4B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926C25CD1C8119F800052D5D /* overlay.png in Resources */,
+				924A52211C77EAC7004B1B53 /* mail.png in Resources */,
+				92FE2DC81BBD9BC2009A4B9C /* Main.storyboard in Resources */,
+				926C25D91C8121E200052D5D /* cancel.png in Resources */,
+				923B1D651C50877200793840 /* help.html in Resources */,
+				926C25D51C811E2F00052D5D /* shutter.png in Resources */,
+				923B1D6A1C50A32200793840 /* choose_image.png in Resources */,
+				923B1D531C4075A100793840 /* CameraOverlayViewController.xib in Resources */,
+				9215C27F1BFDD713000CEC93 /* onbench_6in.JPG in Resources */,
+				92C1FEF41C3DEDC600BABB2F /* box.png in Resources */,
+				92E61FE51BC44105004E0A4C /* assay.jpg in Resources */,
+				926649801BC426A400A2610D /* image.jpeg in Resources */,
+				92FE2DCD1BBD9BC2009A4B9C /* LaunchScreen.xib in Resources */,
+				924A521F1C77EA15004B1B53 /* dropbox_glyph_blue.png in Resources */,
+				92798BFE1C65737400758791 /* AnalysisResult.h in Resources */,
+				92FE2DCA1BBD9BC2009A4B9C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FE2DD01BBD9BC2009A4B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A500D684C7470BF93FA5159 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Assay Analysis/Pods-Assay Analysis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB6D8DA847DFA50155664592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E19105177979FA970800648C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Assay Analysis/Pods-Assay Analysis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92FE2DB91BBD9BC2009A4B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923B1D551C4077EF00793840 /* CameraOverlayView.swift in Sources */,
+				92FE2DC51BBD9BC2009A4B9C /* DetectedCirclesViewController.swift in Sources */,
+				923B1DBA1C56E06C00793840 /* AnalysisData.swift in Sources */,
+				923B1D591C4F59D600793840 /* MainViewController.swift in Sources */,
+				923B1D671C5087F600793840 /* HelpViewController.swift in Sources */,
+				926649701BC3A63B00A2610D /* OpenCVWrapper.mm in Sources */,
+				923B1D751C55F0D900793840 /* ResultsViewController.swift in Sources */,
+				92798C001C65739600758791 /* AnalysisResult.mm in Sources */,
+				923B1D521C4075A100793840 /* CameraOverlayViewController.swift in Sources */,
+				92E61FE31BC42E4F004E0A4C /* CVCircles.cpp in Sources */,
+				923B1D6E1C53016B00793840 /* SavedAnalysisTableViewController.swift in Sources */,
+				923B1D571C48B55300793840 /* NewAnalysisViewController.swift in Sources */,
+				926649771BC3A89600A2610D /* UIImage+OpenCV.mm in Sources */,
+				927A8CE81C60497F001F758D /* Circle.mm in Sources */,
+				924A52231C793FD2004B1B53 /* ExportViewController.swift in Sources */,
+				923B1D731C55E14500793840 /* AssayAnalysis.xcdatamodeld in Sources */,
+				923B1D6C1C52F0F400793840 /* SavedAnalysisTableViewCell.swift in Sources */,
+				923B1DBC1C57013A00793840 /* Utils.swift in Sources */,
+				924A52251C79500C004B1B53 /* AssayAnalysisPhotoAlbum.swift in Sources */,
+				92FE2DC31BBD9BC2009A4B9C /* AppDelegate.swift in Sources */,
+				923B1D601C4F710700793840 /* FloatLabelTextView.swift in Sources */,
+				923B1D5F1C4F710700793840 /* FloatLabelTextField.swift in Sources */,
+				9215C2831C0E0507000CEC93 /* CameraViewController.swift in Sources */,
+				D6952AF41C59804200A7FF22 /* circleSegment.cpp in Sources */,
+				927A8CEE1C615E2E001F758D /* CirclePosition.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FE2DCE1BBD9BC2009A4B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FE2DD91BBD9BC2009A4B9C /* Assay_AnalysisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92FE2DD41BBD9BC2009A4B9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FE2DBC1BBD9BC2009A4B9C /* Assay Analysis */;
+			targetProxy = 92FE2DD31BBD9BC2009A4B9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92FE2DC61BBD9BC2009A4B9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92FE2DC71BBD9BC2009A4B9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92FE2DCB1BBD9BC2009A4B9C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92FE2DCC1BBD9BC2009A4B9C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92FE2DDA1BBD9BC2009A4B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos10.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		92FE2DDB1BBD9BC2009A4B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos10.0;
+				SWIFT_VERSION = 2.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92FE2DDD1BBD9BC2009A4B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15226C77C7C3B359603FBB05 /* Pods-Assay Analysis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JHLD9G9DAX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/anthony/opencv/ios,
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "Assay Analysis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.dzhuo.assay-analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fc290954-dde2-4470-bf17-7cbf24c683bd";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Assay Analysis/AssayAnalysis-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		92FE2DDE1BBD9BC2009A4B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEACB982A1922370D2365351 /* Pods-Assay Analysis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JHLD9G9DAX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/anthony/opencv/ios,
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "Assay Analysis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.dzhuo.assay-analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fc290954-dde2-4470-bf17-7cbf24c683bd";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Assay Analysis/AssayAnalysis-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		92FE2DE01BBD9BC2009A4B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JHLD9G9DAX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Assay AnalysisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.calpoly.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assay Analysis.app/Assay Analysis";
+			};
+			name = Debug;
+		};
+		92FE2DE11BBD9BC2009A4B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JHLD9G9DAX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Assay AnalysisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.calpoly.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assay Analysis.app/Assay Analysis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92FE2DB81BBD9BC2009A4B9C /* Build configuration list for PBXProject "Assay Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FE2DDA1BBD9BC2009A4B9C /* Debug */,
+				92FE2DDB1BBD9BC2009A4B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FE2DDC1BBD9BC2009A4B9C /* Build configuration list for PBXNativeTarget "Assay Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FE2DDD1BBD9BC2009A4B9C /* Debug */,
+				92FE2DDE1BBD9BC2009A4B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FE2DDF1BBD9BC2009A4B9C /* Build configuration list for PBXNativeTarget "Assay AnalysisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FE2DE01BBD9BC2009A4B9C /* Debug */,
+				92FE2DE11BBD9BC2009A4B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		923B1D711C55E14500793840 /* AssayAnalysis.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				923B1D721C55E14500793840 /* AssayAnalysis.xcdatamodel */,
+			);
+			currentVersion = 923B1D721C55E14500793840 /* AssayAnalysis.xcdatamodel */;
+			path = AssayAnalysis.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92FE2DB51BBD9BC2009A4B9C /* Project object */;
+}

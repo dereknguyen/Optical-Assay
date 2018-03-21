@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraOverlayViewController" customModule="Assay_Analysis" customModuleProvider="target">
+            <connections>
+                <outlet property="guideline" destination="Hlw-YE-nnJ" id="gTc-y0-kSH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="widthContstraint" destination="qnX-Q6-oFm" id="rxd-Bh-Bvg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="CameraOverlayView" customModule="Assay_Analysis" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h09-4Q-FiR">
+                    <rect key="frame" x="146.66666666666666" y="682" width="81.666666666666657" height="81.333333333333371"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="h09-4Q-FiR" secondAttribute="height" multiplier="1:1" id="xyo-vY-OIz"/>
+                    </constraints>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <state key="normal" image="shutterButton"/>
+                    <connections>
+                        <action selector="takePhoto:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="A6S-w5-TIG"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Guideline" translatesAutoresizingMaskIntoConstraints="NO" id="Hlw-YE-nnJ">
+                    <rect key="frame" x="94.333333333333329" y="266.33333333333331" width="187.66666666666669" height="279.99999999999994"/>
+                    <color key="tintColor" red="0.23137254900000001" green="0.34901960780000002" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Hlw-YE-nnJ" secondAttribute="height" multiplier="85:127.5" id="gNm-de-sk7"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9o-l4-tTI">
+                    <rect key="frame" x="16" y="705.33333333333337" width="57" height="34"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Cancel"/>
+                    <connections>
+                        <action selector="cancelPhoto:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="zqF-31-lUY"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2uw-1Y-yRj" userLabel="Viewfinder">
+                    <rect key="frame" x="0.0" y="156" width="375" height="500"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="2uw-1Y-yRj" secondAttribute="height" multiplier="3:4" id="4aC-6c-2rj"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Match the corners of well plate with guide frame" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8M-AW-BjH">
+                    <rect key="frame" x="55" y="93" width="264" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="4lf-hC-2Zz"/>
+                        <constraint firstAttribute="width" secondItem="o8M-AW-BjH" secondAttribute="height" multiplier="24:5" id="K5Y-S8-pgF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="B9o-l4-tTI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="0gg-dj-ql4"/>
+                <constraint firstItem="Hlw-YE-nnJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="145-7N-hN7"/>
+                <constraint firstItem="2uw-1Y-yRj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Dmm-Gw-HeO"/>
+                <constraint firstItem="o8M-AW-BjH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="KpH-20-5NC"/>
+                <constraint firstItem="Hlw-YE-nnJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Mz3-oO-kHE"/>
+                <constraint firstItem="h09-4Q-FiR" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.1" id="NY8-Zm-pFu"/>
+                <constraint firstItem="h09-4Q-FiR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="OBz-ra-7h3"/>
+                <constraint firstItem="2uw-1Y-yRj" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="StH-to-tlA"/>
+                <constraint firstItem="2uw-1Y-yRj" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="bE2-Ml-QUA"/>
+                <constraint firstItem="2uw-1Y-yRj" firstAttribute="top" secondItem="o8M-AW-BjH" secondAttribute="bottom" constant="8" id="hcY-IA-9Zo"/>
+                <constraint firstItem="h09-4Q-FiR" firstAttribute="top" secondItem="2uw-1Y-yRj" secondAttribute="bottom" constant="26" id="jC7-P4-6f7"/>
+                <constraint firstItem="Hlw-YE-nnJ" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.5" id="qnX-Q6-oFm"/>
+                <constraint firstItem="B9o-l4-tTI" firstAttribute="centerY" secondItem="h09-4Q-FiR" secondAttribute="centerY" id="tv9-5x-gRX"/>
+            </constraints>
+            <point key="canvasLocation" x="33" y="52"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Guideline" width="1859" height="2857"/>
+        <image name="shutterButton" width="800" height="800"/>
+    </resources>
+</document>

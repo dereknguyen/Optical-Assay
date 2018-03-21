@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>Assay Analysis Help</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<style>
+body {
+    font: 12pt Helvetica, sans-serif;
+    background-color: #1FAFEC;
+    color: #FFFFFF;
+}
+/*h3 {
+    margin: 12px 0px 0px 0px;
+}*/
+p {
+    margin: 0px 0px 0px 0px;
+    /*left: 6px;*/
+}
+dsc {
+    margin: 12px 0px 12px 0px;
+    font-size: 96%;
+    display: block;
+}
+li {
+    margin: 4px 0px 4px 0px;
+}
+a {
+    color: #333333;
+}
+</style>
+<body>
+    <h1 align="center">Assay Analysis<br />Help Page</h1>
+    <p>Welcome to help page for the assay analysis app.
+    This will go over proper usage of the app, and tips for troubleshooting the app, the capabilities of the app, disclaimers, and license agreements for using this app.</p>
+
+    <h3>Table of Contents</h3>
+    <ol>
+        <li><a href="#Usage">Usage</a><br></li>
+        <li><a href="#Troubleshooting">Troubleshooting</a><br></li>
+        <li><a href="#Capabilities">Capabilities</a><br></li>
+        <li><a href="#Disclaimer">Disclaimer</a><br></li>
+        <li><a href="#Open Source Attributions">Open Source Attributions</a><br></li>
+    </ol>
+
+    <h3 id="Usage">Usage</h3>
+    <ol>
+        <li>Launch the app</li>
+            <dsc>The first page shown is the "Launch Page". This will show past analysis results with their name, thumbnail, and timestamp. </dsc>
+        <li>Tap the camera icon in the upper right corner</li>
+            <dsc>This launches the "New Analysis" page</dsc>
+        <li>Fill out the relevant information</li>
+            <dsc>
+            Name (Required): The name of the analysis. This will be the name shown on the Results Page<br>
+            Description (Not required): A short description that describes the analysis<br>
+            </dsc>
+        <li>Tap the "Choose Image" icon</li>
+            <dsc>To capture a new image to analyze, tap "Camera". The screen should show what the camera sees, with a rectangular frame overlaid on the view.<br>
+            Here are some tips to take a good shot for the analysis:
+            <ul id="Tips for good images">
+                <li>Center the plate inside of the rectangular frame.</li>
+                <li>Align the sides of the rectangle with the plate.</li>
+                <li>Keep the phone as level as possible.</li>
+                <li>Avoid direct light and glare.</li>
+                <li>Use an even consistent background for the image, even outside of the rectangular frame.</li>
+            </ul>
+            Tap the circular icon on the screen to capture the image when it is ready.<br></dsc>
+
+            <dsc>To analyze an image that was previously captured, tap "Photo Library". The screen that appears will show your photo library. Find an appropriate assay image, keeping the guidelines above in mind.</dsc>
+        <li>Hit "Next" in the upper right corner</li>
+            <dsc>The image will be processed to detect test tube wells. If not all of the filled test tubes have been detected, tap on that it to circle it. If there are extra circles (empty test tubes, random junk) detected, tap "Delete" and tap on the extra circles to remove them.<br><br>Note: For extra precision, zoom into the image by pinching and tap the center of test tube</dsc>
+        <li>Tap "Analyze" when the image is ready to be processed</li>
+            <dsc>The relative concentrations of the test tubes will be overlain over the test tubes. Zoom in to view them if the text is too small.</dsc>
+        <li>If you are satisfied, hit "Export" to save the analysis to the launch page</li>
+        <li>Then, hit "Done" to return to the Launch Page</li>
+            <dsc>To view past results, tap on the thumbnail of the result you wish to view.<br>
+            To delete any past result, swipe right on the thumbnail and tap "Delete".<br>
+            To perform another analysis, repeat start from the beginning of this list.<dsc>
+    </ol>
+
+    <h3 id="Troubleshooting">Troubleshooting</h3>
+    <p>To improve the accuracy of the analysis make sure to follow these steps:
+        <script type="text/javascript">
+            var list = document.getElementById("Tips for good images");
+            clone = list.cloneNode(true);
+            document.body.appendChild(clone);
+        </script>
+    </p>
+
+    <h3 id="Capabilities">Capabilities</h3>
+    <p>
+        <ul id="Ranges">
+            <li> Hue Range: 180-230</li>
+            <li> Max Error Rate: 7%</li>
+            <li> Average Error Rate: 5.5%</li>
+        </ul>
+        Error rate is defined as the percent difference in the sample hue in different locations on an assay plate. The app is expected to be used in typical indoor lighting conditions such as those found in classrooms and laboratories, and should only be used for measuring samples that differ mostly in the blue hue range. The app will have unexpected results outside of the defined hue ranges. It is possible that results may be obtained outside of the defined range that give values around the upper and lower limits of the defined range. <br><br>
+
+        This app has only been tested with blue dyes.
+    </p>
+
+    <h3 id="Disclaimer">Disclaimer</h3>
+    <p>The information provided by this app is not intended or implied to be a substitute for professional medical advice, diagnosis or treatment. This app is not intended or implied to to be a replacement for a proper microplate reader, and is only to be used for <i>estimating</i> concentrations of assays. The makers of this app, the Cal Poly Assay-Analysis Capstone Group and the California Polytechnic State University will not be held liable for any damages caused by this app.</p>
+
+    <h3 id="License Agreement">License Agreement</h3>
+    <p>@ Copyright 2015-2016, Cal Poly Assay-Analysis Capstone Group. All rights reserved.<br><br>
+
+    By downloading, copying, installing or using the software you agree to this license. If you do not agree to this license, do not download, install, copy or use the software.<br><br>
+
+    The source code is confidential and only available to authorized individuals with the permission of the copyright holders. If you encounter this source code and do not have permission, please contact the copyright holders and delete this source code.<br><br>
+
+    This software is provided by the copyright holders and contributors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall copyright holders or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.<br></p>
+
+    <h3 id="Open Source Attributions">Open Source Attributions</h3>
+    <p>The following contains licensing information relating to the use of free and open-source software packages in the Assay Analysis iOS app.<br></p>
+
+    <h4>License Agreement for Open Source Computer Vision Library, <a href="http://opencv.org">OpenCV</a></h4>
+    <p>
+    @ Copyright 2000-2015, Intel Corporation, all rights reserved.<br>
+    @ Copyright 2009-2011, Willow Garage Inc., all rights reserved.<br>
+    @ Copyright 2009-2015, NVIDIA Corporation, all rights reserved.<br>
+    @ Copyright 2010-2013, Advanced Micro Devices, Inc., all rights reserved.<br>
+    @ Copyright 2015, OpenCV Foundation, all rights reserved.<br>
+    @ Copyright 2015-2016, Itseez Inc., all rights reserved.<br>
+    Third party copyrights are property of their respective owners.<br><br>
+
+    Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:<br><br>
+    * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.<br><br>
+    * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.<br><br>
+    * Neither the names of the copyright holders nor the names of the contributors may be used to endorse or promote products derived from this software without specific prior written permission.<br><br>
+    This software is provided by the copyright holders and contributors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall copyright holders or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of
+    the use of this software, even if advised of the possibility of such damage.<br></p>
+
+<p>&nbsp;</p>
+
+</body>
+</html>
