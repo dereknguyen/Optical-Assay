@@ -13,18 +13,13 @@ Table of Contents
 4. [Disclaimer](#Disclaimer)
 5. [Open Source Attributions](#attributions)
 
-Usage
-1. Launch the app
-
-The first page shown is the "Recent Page". This will show past analysis results with their name, thumbnail, and timestamp.
-
-2. Tap the “+” icon in the upper right corner
-
-This launches the "New Analysis" page
-
-3. Fill out the relevant information
-
-Analysis Name (Required): The name of the analysis. This will be the name shown on the Results Page Description (Not required): A short description that describes the analysis
+## Usage
+   1. Launch the app
+         The first page shown is the "Recent Page". This will show past analysis results with their name, thumbnail, and timestamp.
+   2. Tap the “+” icon in the upper right corner
+         This launches the "New Analysis" page
+   3. Fill out the relevant information
+         Analysis Name (Required): The name of the analysis. This will be the name shown on the Results Page Description (Not required): A short description that describes the analysis
 
 4. Tap the "Choose Image" icon
 
