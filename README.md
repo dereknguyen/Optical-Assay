@@ -56,3 +56,8 @@ To improve the accuracy of the analysis, make sure to follow these steps:
 -  Keep the phone as level as possible.
 -  Avoid direct light and glare.
 -  Use an even consistent background for the image, even outside of the rectangular frame.
+
+## Capabilities
+-  Hue Range: 180-230
+-  Max Error Rate: 35%
+-  Average Error Rate: 12%
