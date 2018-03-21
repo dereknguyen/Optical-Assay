@@ -72,7 +72,7 @@ To improve the accuracy of the analysis, make sure to follow these steps:
 The information provided by this app is not intended or implied to be a substitute for professional medical advice, diagnosis or treatment. This app is not intended or implied to to be a replacement for a proper microplate reader, and is only to be used for estimating concentrations of assays. The makers of this app, the Cal Poly Optical Assay Capstone Group and the California Polytechnic State University will not be held liable for any damages caused by this app.
 
 ## License Agreement
-@ Copyright 2017-2018, Cal Poly Optical Assay Capstone Group. All rights reserved.
+### @ Copyright 2017-2018, Cal Poly Optical Assay Capstone Group. All rights reserved.
 
 By downloading, copying, installing or using the software you agree to this license. If you do not agree to this license, do not download, install, copy or use the software.
 
@@ -81,8 +81,10 @@ The source code is confidential and only available to authorized individuals wit
 This software is provided by the copyright holders and contributors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall copyright holders or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
 
 
-License Agreement For Open Source Computer Vision Library
+### License Agreement For Open Source Computer Vision Library
+
 (3-clause BSD License)
+
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
 - Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
